@@ -56,7 +56,7 @@ E.G:
 ```
 laraslack([
     'channel' => 'Dummy Channel',
-    'icon'    => 'banana',
+    'icon'    => 'bananadance',
     'message  => 'message goes here'
 ]);
 ```
