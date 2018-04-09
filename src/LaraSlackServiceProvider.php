@@ -14,11 +14,6 @@ class LaraSlackServiceProvider extends \Illuminate\Support\ServiceProvider {
 			__DIR__.'/config/slack.php', 'slack'
 		);
 
-		$this->app->singleton(LaraSlack::class, function () {
-            return new LaraSlack();
-        });
-        $this->app->alias(LaraSlack::class, 'laraslack');
-	
 	}
 
 
