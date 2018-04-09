@@ -1,0 +1,45 @@
+{
+  "name": "DataDev/laraslack",
+  "version": "0.1.0",
+  "homepage": "https://git.bootshearingcare.biz/packages/LaraSlack",
+  "description": "",
+  "keywords": [
+    "laravel", "slack"
+  ],
+  "authors": [
+    {
+      "name": "ThomasMountain",
+      "homepage": "https://github.com/ThomasMountain",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://git.bootshearingcare.biz/packages/LaraSlack/issues",
+    "source": "https://git.bootshearingcare.biz/packages/LaraSlack"
+  },
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.3.0",
+    "monolog/monolog": "1.*",
+  },
+  "require-dev": {
+    "phpdocumentor/phpdocumentor": "2.*",
+    "phpunit/phpunit": "5.*",
+    "sebastian/phpcpd": "2.*"
+  },
+  "autoload":{
+    "psr-4": {
+      "DataDev\\LaraSlack\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "DataDev\\LaraSlack\\LaraSlackServiceProvider"
+          ]
+      }
+  },"scripts": {
+    
+  }
+}
