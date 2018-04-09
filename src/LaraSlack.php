@@ -6,7 +6,7 @@ namespace DataDev\LaraSlack;
  * @property array defaultConfig;
  * @property mixed content
  */
-class Slack {
+class LaraSlack {
 
 	protected $defaultConfig = [];
 

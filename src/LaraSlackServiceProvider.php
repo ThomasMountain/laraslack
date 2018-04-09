@@ -10,6 +10,10 @@ class LaraSlackServiceProvider extends \Illuminate\Support\ServiceProvider {
 
 
 	public function boot(){
+		$this->mergeConfigFrom(
+			__DIR__.'/config/slack.php', 'slack'
+		);
+
 		$this->app->singleton(LaraSlack::class, function () {
             return new LaraSlack();
         });
