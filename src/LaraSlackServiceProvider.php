@@ -1,6 +1,6 @@
 <?php
 
-namespace DataDev\LaraSlack;
+namespace ThomasMountain\LaraSlack;
 
 class LaraSlackServiceProvider extends \Illuminate\Support\ServiceProvider {
 

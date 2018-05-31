@@ -1,6 +1,6 @@
 <?php
 
-namespace DataDev\LaraSlack;
+namespace ThomasMountain\LaraSlack;
 
 /**
  * @property array defaultConfig;

@@ -13,7 +13,7 @@ Register a helper function instantiating the LaraSlack class e.g.
 
 ```
 function laraslack($content) {
-	return new \DataDev\LaraSlack\LaraSlack($content);
+	return new \ThomasMountain\LaraSlack\LaraSlack($content);
 }
 ```
 
@@ -23,7 +23,7 @@ Required ENV
 
 * SLACK_WEB_HOOK_URL=
     * String
-    * The DataDev slack web hook url
+    * The Slack web hook url
 * SLACK_CHANNEL=
     * String
     * The channel or user to send the message to 
