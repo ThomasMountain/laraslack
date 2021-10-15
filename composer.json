@@ -1,8 +1,7 @@
 {
-    "name": "thomasmountain/laraslack",
-    "version": "0.1.0",
+    "name": "mountain/laraslack",
     "homepage": "https://github.com/ThomasMountain/laraslack",
-    "description": "",
+    "description": "A simple package to automatically send alerts to a slack channel",
     "keywords": [
         "laravel",
         "slack"
@@ -10,8 +9,7 @@
     "authors": [
         {
             "name": "ThomasMountain",
-            "homepage": "https://github.com/ThomasMountain",
-            "role": "Developer"
+            "homepage": "https://github.com/ThomasMountain"
         }
     ],
     "support": {
@@ -21,13 +19,8 @@
     "license": "MIT",
     "type": "library",
     "require": {
-        "php": ">=5.3.0",
-        "monolog/monolog": "1.*"
-    },
-    "require-dev": {
-        "phpdocumentor/phpdocumentor": "2.*",
-        "phpunit/phpunit": "5.*",
-        "sebastian/phpcpd": "2.*"
+        "php": ">=7.0",
+        "ext-curl": "*"
     },
     "autoload": {
         "psr-4": {
